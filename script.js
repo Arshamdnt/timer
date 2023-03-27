@@ -1,16 +1,12 @@
-var minute = +prompt("enter minute")
-var second = +prompt("enter second")
-var timer = setInterval(function(){
+// var userName = prompt('Enter The UserName: ') // ''
+var userNumber = +prompt('Enter The Number: ') // ''
 
-    if (second === -1) {
-        minute --
-        second = 59
-    }
-    if (minute === 0 && second === 0) {
-        clearInterval(timer)
-    }
+// alert(userNumber)
 
-    console.log( "timer" +" "+ minute + ":" + second) 
-    second --
+// if (!userName) {
+//     alert("لطفا یوزرنیم خود را وارد نمایید")
+// }
+
+if (!userNumber) {
+    alert('صفر مجاز نیست')
 }
-,1000)
