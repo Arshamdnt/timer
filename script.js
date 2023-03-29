@@ -1,4 +1,4 @@
-
-setTimeout(function(num1,num2){
-    alert(num1 + num2)
-},2000,5,8)
+let information = prompt("enter your username")
+let newH1Elem = document.createAttribute("h1","title" )
+newH1Elem.innerHTML = information
+console.log(newH1Elem)
